@@ -1,0 +1,46 @@
+@import "../../../variables";
+
+.logo{
+    background: url('../../../assets/images/logo.jpg');
+    background-size: contain;
+    background-repeat: no-repeat ;
+    height: 65px;
+    width: 200px;
+}
+
+.navbar-light .navbar-nav {
+    .nav-item{
+        margin-right: 20px;
+        .nav-link{
+            color:$darkBlue;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-family: Open_Sans_bold;
+        }
+        &.active{
+            .nav-link{
+                color:$lightBlue;
+            }
+        }
+    }
+}
+
+.searchBox{
+    border: 1px solid #ced4da;
+    padding-left: 7px;
+    background: #edeeee;
+    .fa{
+        color:#bac0c7;
+        margin-top: 10px;
+        float: left;
+    }
+    input{
+        border: none;
+        margin-right: 0px !important;
+        margin-bottom: 1px;
+        background: #edeeee;
+        box-shadow: none;
+        float: right;
+        width: 93%;
+    }
+}

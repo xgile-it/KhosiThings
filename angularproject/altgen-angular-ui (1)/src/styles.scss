@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "variables";
+
+@font-face{
+    font-family: Open_Sans;
+    src:url(../src/assets/fonts/OpenSans-Regular.ttf)
+}
+
+@font-face{
+    font-family: Open_Sans_bold;
+    src:url(../src/assets/fonts/OpenSans-Bold.ttf)
+}
+
+body{
+    font-family: Open_Sans;
+}
+
+.form-control{
+    border-radius: 0px;
+}
